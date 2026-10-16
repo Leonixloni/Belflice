@@ -1,0 +1,757 @@
+{
+  "id": "life",
+  "name": "Wspólny przodek całego znanego życia",
+  "latin": "LUCA — Last Universal Common Ancestor",
+  "age": "co najmniej ok. 3,5–4 mld lat temu",
+  "kind": "ancestor",
+  "description": "LUCA to populacja przodków, od której wywodzą się wszystkie współczesne organizmy komórkowe. Nie był pierwszym życiem ani pojedynczym osobnikiem. Wczesna ewolucja była siecią wymiany genów, dlatego najgłębsze rozgałęzienia są niepewne.",
+  "children": [
+    {
+      "id": "bacteria",
+      "name": "Bakterie",
+      "latin": "Bacteria",
+      "age": "ponad 3,5 mld lat temu",
+      "kind": "domain",
+      "description": "Jedna z dwóch głównych linii organizmów prokariotycznych. Bakterie są niezwykle różnorodne: żyją w glebie, wodzie, organizmach i ekstremalnych środowiskach.",
+      "children": [
+        {
+          "id": "cyanobacteria",
+          "name": "Sinice",
+          "latin": "Cyanobacteria",
+          "age": "co najmniej 2,7 mld lat temu",
+          "kind": "group",
+          "description": "Bakterie prowadzące fotosyntezę tlenową. Ich aktywność przyczyniła się do wzrostu ilości tlenu w atmosferze.",
+          "children": [
+            {
+              "id": "chloroplasts",
+              "name": "Przodkowie chloroplastów",
+              "latin": "Plastydy roślin i glonów",
+              "age": "ok. 1,5–2 mld lat temu",
+              "kind": "event",
+              "description": "Chloroplasty pochodzą od bakterii podobnych do sinic, które weszły w trwałą symbiozę z przodkiem eukariontów. To endosymbioza, nie zwykłe rozgałęzienie."
+            }
+          ]
+        },
+        {
+          "id": "proteobacteria",
+          "name": "Proteobakterie i krewni",
+          "latin": "Pseudomonadota i pokrewne grupy",
+          "kind": "group",
+          "description": "Ogromna grupa obejmująca m.in. bakterie glebowe, wiele bakterii jelitowych oraz przodków mitochondriów.",
+          "children": [
+            {
+              "id": "mitochondria",
+              "name": "Przodkowie mitochondriów",
+              "latin": "Mitochondria",
+              "age": "ok. 1,5–2 mld lat temu",
+              "kind": "event",
+              "description": "Mitochondria wywodzą się z bakterii, które zamieszkały wewnątrz przodka eukariontów. Współczesne komórki eukariotyczne zachowały ślady tego pochodzenia."
+            },
+            {
+              "id": "e_coli",
+              "name": "Escherichia coli",
+              "latin": "E. coli",
+              "kind": "species",
+              "description": "Bakteria spotykana w jelitach ludzi i innych zwierząt. Większość szczepów jest nieszkodliwa, ale niektóre mogą wywoływać choroby."
+            }
+          ]
+        },
+        {
+          "id": "firmicutes",
+          "name": "Bakterie Gram-dodatnie",
+          "latin": "Bacillota i pokrewne grupy",
+          "kind": "group",
+          "description": "Zróżnicowane bakterie, w tym bakterie kwasu mlekowego oraz gatunki tworzące odporne przetrwalniki."
+        },
+        {
+          "id": "actinobacteria",
+          "name": "Promieniowce",
+          "latin": "Actinomycetota",
+          "kind": "group",
+          "description": "Wiele z nich żyje w glebie i rozkłada materię organiczną; niektóre wytwarzają antybiotyki."
+        }
+      ]
+    },
+    {
+      "id": "archaea",
+      "name": "Archeony",
+      "latin": "Archaea",
+      "age": "co najmniej ok. 3,5 mld lat temu",
+      "kind": "domain",
+      "description": "Prokarionty odrębne od bakterii. Nie wszystkie żyją w ekstremalnych warunkach — archeony występują także w oceanach, glebach i organizmach.",
+      "children": [
+        {
+          "id": "methanogens",
+          "name": "Metanogeny",
+          "latin": "Methanogenic archaea",
+          "kind": "group",
+          "description": "Archeony wytwarzające metan, ważne dla obiegu węgla w osadach, mokradłach i przewodach pokarmowych przeżuwaczy."
+        },
+        {
+          "id": "asgard",
+          "name": "Archeony spokrewnione z eukariontami",
+          "latin": "Asgard archaea",
+          "kind": "group",
+          "description": "Odkrycia genomów tej grupy wspierają hipotezę, że przodek eukariontów wywodził się z linii archeonów."
+        }
+      ]
+    },
+    {
+      "id": "eukaryotes",
+      "name": "Eukarionty",
+      "latin": "Eukaryota",
+      "age": "co najmniej ok. 1,8–2,1 mld lat temu",
+      "kind": "domain",
+      "description": "Organizmy, których komórki mają jądro. Należą tu zwierzęta, rośliny, grzyby i ogromna różnorodność protistów.",
+      "children": [
+        {
+          "id": "protists",
+          "name": "Protisty — wiele niezależnych linii",
+          "latin": "różne linie eukariontów",
+          "kind": "kingdom",
+          "description": "„Protisty” to praktyczna, nieformalna nazwa wielu eukariontów, które nie są zwierzętami, roślinami ani grzybami. Nie tworzą jednej naturalnej gałęzi.",
+          "children": [
+            {
+              "id": "amoeba",
+              "name": "Ameby",
+              "latin": "Amoebozoa",
+              "kind": "group",
+              "description": "Organizmy zwykle jednokomórkowe, poruszające się za pomocą wypustek komórki. Występują w wodzie, glebie i innych środowiskach."
+            },
+            {
+              "id": "ciliates",
+              "name": "Orzęski",
+              "latin": "Ciliophora",
+              "kind": "group",
+              "description": "Protisty poruszające się dzięki rzęskom; wiele z nich żywi się bakteriami i innymi drobnymi organizmami."
+            },
+            {
+              "id": "diatoms",
+              "name": "Okrzemki",
+              "latin": "Bacillariophyta",
+              "kind": "group",
+              "description": "Glony o krzemionkowych pancerzykach. Są ważnymi producentami materii organicznej w wodach."
+            },
+            {
+              "id": "plasmodium",
+              "name": "Zarodziec malarii",
+              "latin": "Plasmodium",
+              "kind": "species",
+              "description": "Rodzaj pasożytniczych protistów przenoszonych przez komary; nie należy do bakterii ani wirusów."
+            },
+            {
+              "id": "kelp",
+              "name": "Brunatnice, w tym listownice",
+              "latin": "Phaeophyceae",
+              "kind": "group",
+              "description": "Wielokomórkowe glony, do których należą rozległe podwodne lasy wodorostów."
+            }
+          ]
+        },
+        {
+          "id": "plants",
+          "name": "Rośliny",
+          "latin": "Viridiplantae i rośliny lądowe",
+          "kind": "kingdom",
+          "description": "Rośliny lądowe wywodzą się z zielonych glonów. Fotosynteza roślin zależy od chloroplastów pochodzenia bakteryjnego.",
+          "children": [
+            {
+              "id": "green_algae",
+              "name": "Zielone glony",
+              "latin": "Chlorophyta i charophyte algae",
+              "kind": "group",
+              "description": "Najbliżsi krewni roślin lądowych znajdują się wśród określonych zielonych glonów, szczególnie ramienicowych."
+            },
+            {
+              "id": "mosses",
+              "name": "Mchy i wątrobowce",
+              "latin": "Bryophytes",
+              "kind": "group",
+              "description": "Wczesne linie roślin lądowych; nie mają typowych, głębokich korzeni i rozmnażają się z udziałem zarodników."
+            },
+            {
+              "id": "ferns",
+              "name": "Paprocie i skrzypy",
+              "latin": "Monilophyta",
+              "kind": "group",
+              "description": "Rośliny naczyniowe rozmnażające się zarodnikami; ich dawne krewniaczki tworzyły rozległe lasy karbonu."
+            },
+            {
+              "id": "gymnosperms",
+              "name": "Nagonasienne",
+              "latin": "Gymnospermae",
+              "kind": "group",
+              "description": "Rośliny nasienne, do których należą iglaste, miłorzębowe i sagowce."
+            },
+            {
+              "id": "angiosperms",
+              "name": "Rośliny okrytonasienne",
+              "latin": "Angiospermae",
+              "kind": "group",
+              "description": "Rośliny kwiatowe. Ich nasiona rozwijają się w zalążni, która przekształca się w owoc.",
+              "children": [
+                {
+                  "id": "grasses",
+                  "name": "Trawy i zboża",
+                  "latin": "Poaceae",
+                  "kind": "group",
+                  "description": "Rodzina obejmująca trawy łąkowe, bambusy oraz zboża, takie jak pszenica, ryż i kukurydza."
+                },
+                {
+                  "id": "roses",
+                  "name": "Róże i krewni",
+                  "latin": "Rosaceae",
+                  "kind": "group",
+                  "description": "Duża rodzina obejmująca róże, jabłonie, grusze, śliwy, truskawki i wiele innych roślin."
+                },
+                {
+                  "id": "orchids",
+                  "name": "Storczykowate",
+                  "latin": "Orchidaceae",
+                  "kind": "group",
+                  "description": "Jedna z najbogatszych w gatunki rodzin roślin kwiatowych, często związana z wyspecjalizowanymi zapylaczami."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fungi",
+          "name": "Grzyby",
+          "latin": "Fungi",
+          "kind": "kingdom",
+          "description": "Grzyby są bliżej spokrewnione ze zwierzętami niż z roślinami. Pobierają składniki odżywcze z otoczenia, często rozkładając materię lub żyjąc w symbiozie.",
+          "children": [
+            {
+              "id": "chytrids",
+              "name": "Skoczkowce",
+              "latin": "Chytridiomycota",
+              "kind": "group",
+              "description": "Wiele z nich żyje w wodzie; część wytwarza ruchliwe zarodniki z wicią."
+            },
+            {
+              "id": "molds",
+              "name": "Pleśnie i workowce",
+              "latin": "Ascomycota i inne linie",
+              "kind": "group",
+              "description": "Bardzo zróżnicowane grzyby, w tym drożdże, pleśnie oraz grzyby tworzące porosty."
+            },
+            {
+              "id": "mushrooms",
+              "name": "Podstawczaki — wiele grzybów kapeluszowych",
+              "latin": "Basidiomycota",
+              "kind": "group",
+              "description": "Linia obejmująca liczne grzyby kapeluszowe, huby i rdze. Widoczny owocnik to tylko część organizmu."
+            },
+            {
+              "id": "yeast",
+              "name": "Drożdże piekarskie",
+              "latin": "Saccharomyces cerevisiae",
+              "kind": "species",
+              "description": "Jednokomórkowy grzyb wykorzystywany w piekarnictwie i badaniach biologicznych."
+            }
+          ]
+        },
+        {
+          "id": "animals",
+          "name": "Zwierzęta",
+          "latin": "Animalia",
+          "kind": "kingdom",
+          "age": "ok. 600–800 mln lat temu",
+          "description": "Zwierzęta wyewoluowały z jednokomórkowych przodków eukariontów. Wczesne rozgałęzienia zwierząt są nadal przedmiotem badań.",
+          "children": [
+            {
+              "id": "sponges",
+              "name": "Gąbki",
+              "latin": "Porifera",
+              "kind": "group",
+              "description": "Proste wielokomórkowe zwierzęta wodne filtrujące wodę. Ich dokładne miejsce w najwcześniejszym drzewie zwierząt jest nadal dyskutowane."
+            },
+            {
+              "id": "cnidaria",
+              "name": "Parzydełkowce",
+              "latin": "Cnidaria",
+              "kind": "group",
+              "description": "Meduzy, koralowce i ukwiały. Wiele gatunków ma komórki parzydełkowe służące do obrony i zdobywania pokarmu."
+            },
+            {
+              "id": "bilateria",
+              "name": "Dwubocznie symetryczne zwierzęta",
+              "latin": "Bilateria",
+              "kind": "group",
+              "description": "Ogromna linia zwierząt, których przodkowie mieli dwuboczną symetrię. Obejmuje większość znanych zwierząt.",
+              "children": [
+                {
+                  "id": "protostomes",
+                  "name": "Pierwouste",
+                  "latin": "Protostomia",
+                  "kind": "group",
+                  "description": "Jedna z dwóch wielkich linii dwubocznie symetrycznych zwierząt; obejmuje m.in. stawonogi, mięczaki i pierścienice.",
+                  "children": [
+                    {
+                      "id": "arthropods",
+                      "name": "Stawonogi",
+                      "latin": "Arthropoda",
+                      "kind": "group",
+                      "description": "Najbogatsza w gatunki grupa zwierząt, z chitynowym oskórkiem i członowanymi odnóżami.",
+                      "children": [
+                        {
+                          "id": "insects",
+                          "name": "Owady",
+                          "latin": "Insecta",
+                          "kind": "group",
+                          "description": "Mrówki, pszczoły, muchy, motyle, chrząszcze i ogromna liczba innych gatunków."
+                        },
+                        {
+                          "id": "arachnids",
+                          "name": "Pajęczaki",
+                          "latin": "Arachnida",
+                          "kind": "group",
+                          "description": "Pająki, skorpiony, kleszcze i roztocza. Nie są owadami."
+                        },
+                        {
+                          "id": "crustaceans",
+                          "name": "Skorupiaki",
+                          "latin": "Crustacea (tradycyjnie)",
+                          "kind": "group",
+                          "description": "Kraby, krewetki, raki i wiele drobnych organizmów wodnych; ewolucyjnie owady są zagnieżdżone wśród stawonogów spokrewnionych ze skorupiakami."
+                        }
+                      ]
+                    },
+                    {
+                      "id": "molluscs",
+                      "name": "Mięczaki",
+                      "latin": "Mollusca",
+                      "kind": "group",
+                      "description": "Ślimaki, małże i głowonogi, w tym ośmiornice i kałamarnice."
+                    },
+                    {
+                      "id": "annelids",
+                      "name": "Pierścienice",
+                      "latin": "Annelida",
+                      "kind": "group",
+                      "description": "Dżdżownice, pijawki i liczne morskie robaki o segmentowanym ciele."
+                    }
+                  ]
+                },
+                {
+                  "id": "deuterostomes",
+                  "name": "Wtórouste",
+                  "latin": "Deuterostomia",
+                  "kind": "group",
+                  "description": "Linia obejmująca szkarłupnie i strunowce; do strunowców należą kręgowce.",
+                  "children": [
+                    {
+                      "id": "echinoderms",
+                      "name": "Szkarłupnie",
+                      "latin": "Echinodermata",
+                      "kind": "group",
+                      "description": "Rozgwiazdy, jeżowce i strzykwy. Ich larwy są dwubocznie symetryczne, choć dorosłe formy często mają symetrię promienistą."
+                    },
+                    {
+                      "id": "chordates",
+                      "name": "Strunowce",
+                      "latin": "Chordata",
+                      "kind": "group",
+                      "description": "W pewnym etapie rozwoju mają strunę grzbietową. Do tej grupy należą kręgowce oraz ich bezkręgowi krewni.",
+                      "children": [
+                        {
+                          "id": "vertebrates",
+                          "name": "Kręgowce",
+                          "latin": "Vertebrata",
+                          "kind": "group",
+                          "description": "Zwierzęta z kręgosłupem lub jego ewolucyjnym odpowiednikiem; ich historia obejmuje ryby, czworonogi i wiele innych linii.",
+                          "children": [
+                            {
+                              "id": "fish",
+                              "name": "Ryby — kilka odrębnych linii",
+                              "latin": "różne linie kręgowców wodnych",
+                              "kind": "group",
+                              "description": "„Ryby” to potoczna grupa, a nie jedna kompletna gałąź: czworonogi wyewoluowały wewnątrz linii ryb mięśniopłetwych."
+                            },
+                            {
+                              "id": "tetrapods",
+                              "name": "Czworonogi",
+                              "latin": "Tetrapoda",
+                              "kind": "group",
+                              "description": "Linia kręgowców wywodząca się od ryb mięśniopłetwych. Wczesne czworonogi były związane z wodą.",
+                              "children": [
+                                {
+                                  "id": "amphibians",
+                                  "name": "Płazy",
+                                  "latin": "Amphibia",
+                                  "kind": "group",
+                                  "description": "Żaby, ropuchy, salamandry i płazy beznogie. Wiele gatunków nadal zależy od wilgotnych środowisk lub wody."
+                                },
+                                {
+                                  "id": "amniotes",
+                                  "name": "Owodniowce",
+                                  "latin": "Amniota",
+                                  "kind": "group",
+                                  "description": "Kręgowce, których zarodek rozwija się z błonami płodowymi; linia ta rozdzieliła się na synapsydy i zauropsydy.",
+                                  "children": [
+                                    {
+                                      "id": "synapsids",
+                                      "name": "Synapsydy",
+                                      "latin": "Synapsida",
+                                      "kind": "group",
+                                      "description": "Linia owodniowców, z której wywodzą się ssaki. Dawne synapsydy nie były ssakami, choć niektóre przypominały je wyglądem.",
+                                      "children": [
+                                        {
+                                          "id": "mammals",
+                                          "name": "Ssaki",
+                                          "latin": "Mammalia",
+                                          "kind": "group",
+                                          "description": "Ssaki karmią młode mlekiem. Ich ewolucja obejmuje m.in. stekowce, torbacze i łożyskowce.",
+                                          "children": [
+                                            {
+                                              "id": "monotremes",
+                                              "name": "Stekowce",
+                                              "latin": "Monotremata",
+                                              "kind": "group",
+                                              "description": "Dziobak i kolczatki — współczesne ssaki składające jaja."
+                                            },
+                                            {
+                                              "id": "marsupials",
+                                              "name": "Torbacze",
+                                              "latin": "Marsupialia",
+                                              "kind": "group",
+                                              "description": "Kangury, koale, wombaty i oposy; rozwój młodych po urodzeniu jest zwykle dłużej kontynuowany poza macicą."
+                                            },
+                                            {
+                                              "id": "placentals",
+                                              "name": "Łożyskowce",
+                                              "latin": "Placentalia",
+                                              "kind": "group",
+                                              "description": "Wielka linia ssaków, w której zarodek rozwija się w macicy z udziałem łożyska.",
+                                              "children": [
+                                                {
+                                                  "id": "rodents",
+                                                  "name": "Gryzonie",
+                                                  "latin": "Rodentia",
+                                                  "kind": "group",
+                                                  "description": "Myszy, szczury, wiewiórki, bobry i kapibary; charakterystyczne siekacze rosną przez całe życie."
+                                                },
+                                                {
+                                                  "id": "lagomorphs",
+                                                  "name": "Zajęczaki",
+                                                  "latin": "Lagomorpha",
+                                                  "kind": "group",
+                                                  "description": "Króliki, zające i szczekuszki; nie są gryzoniami."
+                                                },
+                                                {
+                                                  "id": "bats",
+                                                  "name": "Nietoperze",
+                                                  "latin": "Chiroptera",
+                                                  "kind": "group",
+                                                  "description": "Jedyna współczesna linia ssaków zdolna do aktywnego lotu."
+                                                },
+                                                {
+                                                  "id": "cetaceans",
+                                                  "name": "Walenie",
+                                                  "latin": "Cetacea",
+                                                  "kind": "group",
+                                                  "description": "Wieloryby, delfiny i morświny. Ich najbliżsi współcześni krewni lądowi to parzystokopytne, szczególnie hipopotamy."
+                                                },
+                                                {
+                                                  "id": "ungulates",
+                                                  "name": "Kopytne i ich krewni",
+                                                  "latin": "różne linie ssaków",
+                                                  "kind": "group",
+                                                  "description": "Konie, nosorożce, tapiry oraz parzystokopytne, takie jak jelenie, świnie, wielbłądy i hipopotamy."
+                                                },
+                                                {
+                                                  "id": "carnivora",
+                                                  "name": "Drapieżne",
+                                                  "latin": "Carnivora",
+                                                  "kind": "group",
+                                                  "description": "Rząd ssaków obejmujący kotowate, psowate, niedźwiedzie, łasicowate, hieny, foki i wiele innych.",
+                                                  "children": [
+                                                    {
+                                                      "id": "caniforms",
+                                                      "name": "Psokształtne",
+                                                      "latin": "Caniformia",
+                                                      "kind": "group",
+                                                      "description": "Jedna z dwóch głównych linii drapieżnych; obejmuje psowate, niedźwiedzie, łasicowate i płetwonogie.",
+                                                      "children": [
+                                                        {
+                                                          "id": "canids",
+                                                          "name": "Psowate",
+                                                          "latin": "Canidae",
+                                                          "kind": "group",
+                                                          "description": "Wilki, psy, lisy, kojoty, szakale i likaony.",
+                                                          "children": [
+                                                            {
+                                                              "id": "wolf",
+                                                              "name": "Wilk szary",
+                                                              "latin": "Canis lupus",
+                                                              "kind": "species",
+                                                              "description": "Dziki gatunek, z którego udomowiono psa. Wilki i psy mają wspólną historię ewolucyjną i mogą się krzyżować."
+                                                            },
+                                                            {
+                                                              "id": "dog",
+                                                              "name": "Pies domowy",
+                                                              "latin": "Canis lupus familiaris",
+                                                              "age": "udomowienie co najmniej ok. 15 tys. lat temu",
+                                                              "kind": "species",
+                                                              "description": "Pies wywodzi się od dawnych populacji wilków. Udomowienie jest procesem populacyjnym, nie pojedynczym wydarzeniem; dokładne daty i szczegóły pozostają badane."
+                                                            },
+                                                            {
+                                                              "id": "fox",
+                                                              "name": "Lisy",
+                                                              "latin": "Vulpes i inne rodzaje",
+                                                              "kind": "group",
+                                                              "description": "Psowate, które oddzieliły się od linii prowadzącej do wilków i psów znacznie wcześniej niż udomowienie psa."
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": "bears",
+                                                          "name": "Niedźwiedziowate",
+                                                          "latin": "Ursidae",
+                                                          "kind": "group",
+                                                          "description": "Niedźwiedzie brunatne, polarne, czarne, panda wielka i inne gatunki."
+                                                        },
+                                                        {
+                                                          "id": "pinnipeds",
+                                                          "name": "Płetwonogie",
+                                                          "latin": "Pinnipedia",
+                                                          "kind": "group",
+                                                          "description": "Foki, uchatki i morsy; ssaki morskie wywodzące się od lądowych przodków z linii psokształtnych."
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": "feliforms",
+                                                      "name": "Kotokształtne",
+                                                      "latin": "Feliformia",
+                                                      "kind": "group",
+                                                      "description": "Kotowate, hieny, mangusty i wiwerowate.",
+                                                      "children": [
+                                                        {
+                                                          "id": "felids",
+                                                          "name": "Kotowate",
+                                                          "latin": "Felidae",
+                                                          "kind": "group",
+                                                          "description": "Koty domowe, lwy, tygrysy, lamparty, rysie i gepardy."
+                                                        },
+                                                        {
+                                                          "id": "hyenas",
+                                                          "name": "Hienowate",
+                                                          "latin": "Hyaenidae",
+                                                          "kind": "group",
+                                                          "description": "Hieny i protel; mimo podobieństw do psów są bliżej spokrewnione z kotokształtnymi."
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": "primates",
+                                                  "name": "Naczelne",
+                                                  "latin": "Primates",
+                                                  "kind": "group",
+                                                  "description": "Lemury, wyraki, małpy szerokonose i wąskonose, w tym małpy człekokształtne i ludzie.",
+                                                  "children": [
+                                                    {
+                                                      "id": "lemurs",
+                                                      "name": "Lemury i lori",
+                                                      "latin": "Strepsirrhini",
+                                                      "kind": "group",
+                                                      "description": "Naczelne, których współczesna różnorodność obejmuje m.in. lemury Madagaskaru i lori Azji oraz Afryki."
+                                                    },
+                                                    {
+                                                      "id": "monkeys",
+                                                      "name": "Małpy",
+                                                      "latin": "Simiiformes",
+                                                      "kind": "group",
+                                                      "description": "Małpy Nowego i Starego Świata oraz małpy człekokształtne. Człowiek nie pochodzi od współczesnych małp — dzielimy z nimi wspólnych przodków."
+                                                    },
+                                                    {
+                                                      "id": "apes",
+                                                      "name": "Małpy człekokształtne",
+                                                      "latin": "Hominoidea",
+                                                      "kind": "group",
+                                                      "description": "Gibony, orangutany, goryle, szympansy, bonobo i ludzie. Ludzie są jedną z linii tej grupy.",
+                                                      "children": [
+                                                        {
+                                                          "id": "gibbons",
+                                                          "name": "Gibony",
+                                                          "latin": "Hylobatidae",
+                                                          "kind": "group",
+                                                          "description": "Małe małpy człekokształtne Azji, które oddzieliły się od linii prowadzącej do wielkich małp miliony lat temu."
+                                                        },
+                                                        {
+                                                          "id": "great_apes",
+                                                          "name": "Wielkie małpy",
+                                                          "latin": "Hominidae",
+                                                          "kind": "group",
+                                                          "description": "Orangutany, goryle, szympansy, bonobo i ludzie. Żaden z żyjących dziś gatunków nie jest przodkiem innego żyjącego gatunku w tej grupie.",
+                                                          "children": [
+                                                            {
+                                                              "id": "orangutans",
+                                                              "name": "Orangutany",
+                                                              "latin": "Pongo",
+                                                              "kind": "group",
+                                                              "description": "Azjatyckie małpy człekokształtne; ich linia oddzieliła się wcześniej niż linie afrykańskich małp człekokształtnych i ludzi."
+                                                            },
+                                                            {
+                                                              "id": "african_apes",
+                                                              "name": "Goryle, szympansy, bonobo i ludzie",
+                                                              "latin": "afrykańskie Hominidae",
+                                                              "kind": "group",
+                                                              "description": "Wspólna historia afrykańskich małp człekokształtnych obejmuje kilka rozgałęzień. Linia człowieka i linia szympansów/bonobo rozdzieliły się około 6–8 mln lat temu.",
+                                                              "children": [
+                                                                {
+                                                                  "id": "gorillas",
+                                                                  "name": "Goryle",
+                                                                  "latin": "Gorilla",
+                                                                  "kind": "group",
+                                                                  "description": "Największe współczesne małpy człekokształtne; ich linia oddzieliła się przed rozdzieleniem linii człowieka i szympansów."
+                                                                },
+                                                                {
+                                                                  "id": "hominini",
+                                                                  "name": "Linia człowieka i linia szympansów",
+                                                                  "latin": "Hominini",
+                                                                  "kind": "group",
+                                                                  "description": "Około 6–8 mln lat temu linie prowadzące do współczesnych ludzi oraz do szympansów i bonobo rozeszły się od wspólnej populacji przodków.",
+                                                                  "children": [
+                                                                    {
+                                                                      "id": "pan",
+                                                                      "name": "Szympansy i bonobo",
+                                                                      "latin": "Pan",
+                                                                      "kind": "group",
+                                                                      "description": "Najbliżsi żyjący krewni człowieka. Ich linia nie jest przodkiem człowieka; obie linie mają wspólnego wymarłego przodka."
+                                                                    },
+                                                                    {
+                                                                      "id": "hominins",
+                                                                      "name": "Hominini — linia człowieka",
+                                                                      "latin": "wiele wymarłych gatunków",
+                                                                      "kind": "group",
+                                                                      "description": "Gałąź obejmująca ludzi i wymarłych krewnych, m.in. australopiteki. Ewolucja człowieka nie była prostą drabiną, lecz rozgałęzionym krzewem.",
+                                                                      "children": [
+                                                                        {
+                                                                          "id": "australopithecus",
+                                                                          "name": "Australopiteki",
+                                                                          "latin": "Australopithecus i krewni",
+                                                                          "age": "ok. 4,2–2 mln lat temu",
+                                                                          "kind": "group",
+                                                                          "description": "Wymarłe homininy, które chodziły na dwóch nogach, ale zachowały wiele cech przystosowanych do wspinania."
+                                                                        },
+                                                                        {
+                                                                          "id": "homo",
+                                                                          "name": "Rodzaj Homo",
+                                                                          "latin": "Homo",
+                                                                          "age": "co najmniej ok. 2,8 mln lat temu",
+                                                                          "kind": "group",
+                                                                          "description": "Rodzaj obejmujący człowieka współczesnego i kilka wymarłych gatunków, np. Homo erectus i neandertalczyków.",
+                                                                          "children": [
+                                                                            {
+                                                                              "id": "neanderthals",
+                                                                              "name": "Neandertalczycy",
+                                                                              "latin": "Homo neanderthalensis",
+                                                                              "age": "wymarli ok. 40 tys. lat temu",
+                                                                              "kind": "species",
+                                                                              "description": "Bliscy krewni Homo sapiens. Dochodziło do krzyżowania między ich populacjami a przodkami wielu współczesnych ludzi."
+                                                                            },
+                                                                            {
+                                                                              "id": "sapiens",
+                                                                              "name": "Człowiek współczesny",
+                                                                              "latin": "Homo sapiens",
+                                                                              "age": "co najmniej ok. 300 tys. lat temu",
+                                                                              "kind": "species",
+                                                                              "description": "Nasz gatunek wyewoluował w Afryce. Współcześni ludzie są jedynym żyjącym gatunkiem rodzaju Homo, ale nie jedynym, który kiedykolwiek istniał."
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "sauropsids",
+                                      "name": "Zauropsydy",
+                                      "latin": "Sauropsida",
+                                      "kind": "group",
+                                      "description": "Linia owodniowców obejmująca gady w szerokim sensie oraz ptaki. Ptaki są żyjącymi dinozaurami.",
+                                      "children": [
+                                        {
+                                          "id": "lepidosaurs",
+                                          "name": "Łuskonośne",
+                                          "latin": "Lepidosauria",
+                                          "kind": "group",
+                                          "description": "Jaszczurki, węże i hatterie."
+                                        },
+                                        {
+                                          "id": "turtles",
+                                          "name": "Żółwie",
+                                          "latin": "Testudines",
+                                          "kind": "group",
+                                          "description": "Gady o charakterystycznym pancerzu; ich pozycję w drzewie gadów ustalono dzięki danym genetycznym."
+                                        },
+                                        {
+                                          "id": "archosaurs",
+                                          "name": "Archozaury",
+                                          "latin": "Archosauria",
+                                          "kind": "group",
+                                          "description": "Linia obejmująca krokodyle oraz dinozaury, w tym ptaki.",
+                                          "children": [
+                                            {
+                                              "id": "crocodilians",
+                                              "name": "Krokodyle i aligatory",
+                                              "latin": "Crocodylia",
+                                              "kind": "group",
+                                              "description": "Półwodne gady; ich najbliższymi żyjącymi krewnymi są ptaki, a nie jaszczurki."
+                                            },
+                                            {
+                                              "id": "dinosaurs",
+                                              "name": "Dinozaury",
+                                              "latin": "Dinosauria",
+                                              "kind": "group",
+                                              "description": "Zróżnicowana grupa gadów, która pojawiła się ponad 230 mln lat temu. Większość linii wymarła podczas wymierania kredowego, ale ptaki przetrwały.",
+                                              "children": [
+                                                {
+                                                  "id": "birds",
+                                                  "name": "Ptaki",
+                                                  "latin": "Aves",
+                                                  "kind": "group",
+                                                  "description": "Żyjąca linia dinozaurów teropodów. Wróble, orły, pingwiny i strusie są dinozaurami w sensie ewolucyjnym."
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101a2b">
+<meta name="description" content="Interaktywne drzewo ewolucyjne życia — od wspólnych przodków do ludzi, zwierząt, roślin, grzybów, bakterii i archeonów.">
+<title>Drzewo Życia — interaktywna ewolucja</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#" aria-label="Drzewo Życia — strona główna"><span class="brand-mark">✳</span><span>Drzewo<span class="brand-light">Życia</span></span></a>
+  <nav><a href="#explorer">Eksploruj</a><a href="#about">Jak czytać drzewo</a><a href="#sources">Źródła i uwagi</a></nav>
+  <button id="resetBtn" class="quiet-button">↺ Wróć na początek</button>
+</header>
+<main>
+<section class="hero">
+  <div class="hero-copy">
+    <div class="eyebrow"><span class="pulse"></span> JEDNA HISTORIA · NIEZLICZONE GAŁĘZIE</div>
+    <h1>Całe życie.<br><em>Jedno wielkie drzewo.</em></h1>
+    <p>Podążaj od człowieka w głąb historii życia, poznawaj wspólnych przodków i odkrywaj, gdzie nasze linie rozeszły się z innymi zwierzętami — aż po grzyby, rośliny, protisty, bakterie i archeony.</p>
+    <div class="hero-actions"><a class="primary-button" href="#explorer">Zacznij odkrywać <span>↓</span></a><span class="micro-note">Interaktywny atlas · działa bez instalacji</span></div>
+  </div>
+  <div class="hero-art" aria-label="Stylizowana ilustracja rozgałęziającego się drzewa życia">
+    <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="core">ŻYCIE<span>~3,5+ mld lat</span></div>
+    <div class="branch b1">Bakterie</div><div class="branch b2">Archeony</div><div class="branch b3">Rośliny</div><div class="branch b4">Grzyby</div><div class="branch b5">Zwierzęta</div><div class="branch b6">Człowiek</div>
+    <svg class="tree-art" viewBox="0 0 460 420" fill="none" aria-hidden="true"><path d="M220 395 C205 330 238 292 215 250 C191 208 143 206 112 163 M218 310 C268 273 290 236 302 183 M215 250 C251 211 253 157 239 113 M210 344 C160 321 120 288 92 242 M226 291 C324 308 356 268 376 222 M240 114 C210 83 179 70 151 48 M240 114 C275 83 309 65 337 39 M302 183 C339 157 362 121 369 89 M112 163 C86 136 65 111 56 80" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><g fill="currentColor"><circle cx="112" cy="163" r="6"/><circle cx="302" cy="183" r="6"/><circle cx="239" cy="113" r="6"/><circle cx="92" cy="242" r="6"/><circle cx="376" cy="222" r="6"/><circle cx="151" cy="48" r="6"/><circle cx="337" cy="39" r="6"/><circle cx="369" cy="89" r="6"/><circle cx="56" cy="80" r="6"/></g></svg>
+  </div>
+</section>
+<section class="stats">
+  <div><strong>3</strong><span>główne domeny życia<br>według klasycznego podziału</span></div>
+  <div><strong>4+ mld</strong><span>lat historii chemii i życia<br>na młodej Ziemi</span></div>
+  <div><strong>∞</strong><span>rozgałęzień, wymarłych linii<br>i wciąż odkrywanych krewnych</span></div>
+</section>
+<section id="explorer" class="explorer-section">
+  <div class="section-heading"><div><div class="eyebrow">ŻYWE DRZEWO</div><h2>Znajdź swoją gałąź.</h2></div><p>Wybierz dowolny węzeł, aby zobaczyć opis. Rozwijaj gałęzie, szukaj organizmów i cofaj się do wspólnych przodków.</p></div>
+  <div class="explorer-grid">
+    <aside class="sidebar">
+      <label class="search-label" for="searchInput">Szukaj w drzewie</label>
+      <div class="search-wrap"><span>⌕</span><input id="searchInput" type="search" placeholder="np. pies, paproć, archeony…" autocomplete="off"></div>
+      <div id="searchResults" class="search-results" hidden></div>
+      <div class="sidebar-label">SZYBKIE SKRÓTY</div>
+      <button class="shortcut" data-jump="sapiens"><span>◉</span> Człowiek współczesny <b>↗</b></button>
+      <button class="shortcut" data-jump="dog"><span>◉</span> Pies domowy <b>↗</b></button>
+      <button class="shortcut" data-jump="birds"><span>◉</span> Ptaki i dinozaury <b>↗</b></button>
+      <button class="shortcut" data-jump="plants"><span>◉</span> Rośliny <b>↗</b></button>
+      <button class="shortcut" data-jump="fungi"><span>◉</span> Grzyby <b>↗</b></button>
+      <button class="shortcut" data-jump="bacteria"><span>◉</span> Bakterie <b>↗</b></button>
+      <div class="legend"><div class="sidebar-label">LEGENDA</div><p><i class="dot dot-domain"></i> Domena / głęboka linia</p><p><i class="dot dot-kingdom"></i> Duża grupa organizmów</p><p><i class="dot dot-species"></i> Gatunek lub przykład</p><p><i class="dot dot-event"></i> Endosymbioza / zdarzenie</p></div>
+    </aside>
+    <div class="tree-panel">
+      <div class="tree-toolbar"><div><span class="live-dot"></span><span id="treeStatus">Widok całego życia</span></div><div class="toolbar-actions"><button id="expandBtn">Rozwiń gałęzie +</button><button id="collapseBtn">Zwiń wszystko −</button></div></div>
+      <div id="treeCanvas" class="tree-canvas" aria-label="Interaktywne drzewo ewolucyjne"></div>
+      <div class="tree-footer"><span>← Przesuwaj drzewo, aby zobaczyć dalsze gałęzie</span><span>Kliknij nazwę, aby poznać historię</span></div>
+    </div>
+    <aside class="detail-panel" id="detailPanel">
+      <div class="detail-kicker">KARTA ORGANIZMU</div>
+      <div class="detail-icon" id="detailIcon">✳</div>
+      <div class="detail-type" id="detailType">WSPÓLNY PRZODEK</div>
+      <h3 id="detailName">Wspólny przodek całego życia</h3>
+      <p class="latin" id="detailLatin">LUCA</p>
+      <div id="detailAgeWrap" class="age-box"><span>⏳</span><div><small>PRZYBLIŻONY CZAS</small><strong id="detailAge">3,5–4 mld lat temu</strong></div></div>
+      <p id="detailDescription" class="detail-description">Wybierz gałąź drzewa, aby poznać jej historię.</p>
+      <div class="detail-divider"></div>
+      <div class="detail-kicker">MIEJSCE W DRZEWIE</div>
+      <div id="breadcrumbs" class="breadcrumbs"></div>
+      <button id="focusBtn" class="focus-button">Pokaż tę gałąź <span>↗</span></button>
+      <div id="childrenList" class="children-list"></div>
+    </aside>
+  </div>
+</section>
+<section id="about" class="about-section">
+  <div class="about-intro"><div class="eyebrow">WAŻNE, ZANIM WYRUSZYSZ</div><h2>To nie drabina.<br><em>To rozgałęziony krzew.</em></h2><p>Ewolucja nie prowadziła wprost do człowieka. Każdy współczesny organizm jest końcem własnej, równie długiej historii.</p></div>
+  <div class="about-cards">
+    <article><span class="card-number">01</span><h3>Wspólny przodek</h3><p>Ludzie i psy nie pochodzą od siebie nawzajem. Dzielą znacznie dawniejszych przodków — ssaki, owodniowce, kręgowce i jeszcze starsze linie życia.</p></article>
+    <article><span class="card-number">02</span><h3>Nie jesteśmy od małp</h3><p>Ludzie nie pochodzą od dzisiejszych szympansów czy innych małp. Nasza linia rozeszła się z linią szympansów i bonobo około 6–8 milionów lat temu.</p></article>
+    <article><span class="card-number">03</span><h3>Życie łączy się w sieć</h3><p>Drzewo to uproszczony model. Endosymbioza, poziomy transfer genów i krzyżowanie niektórych linii sprawiają, że historia życia bywa bardziej siecią niż prostym drzewem.</p></article>
+  </div>
+</section>
+<section id="sources" class="sources-section"><div><div class="eyebrow">NAUKOWA OSTROŻNOŚĆ</div><h2>Mapa do odkrywania,<br>nie ostatnie słowo.</h2></div><div class="sources-copy"><p>Drzewo jest edukacyjnym przeglądem wybranych linii, a nie kompletnym katalogiem gatunków. Daty są orientacyjne; część relacji między grupami nadal jest badana. „Protisty”, „ryby” i niektóre tradycyjne kategorie nie oznaczają pojedynczych, zamkniętych gałęzi ewolucyjnych.</p><p>Do dalszej nauki: <a href="https://www.onezoom.org/" target="_blank" rel="noopener">OneZoom — drzewo życia</a>, <a href="https://www.tolweb.org/" target="_blank" rel="noopener">Tree of Life Web Project</a>, <a href="https://evolution.berkeley.edu/" target="_blank" rel="noopener">Understanding Evolution (UC Berkeley)</a> oraz <a href="https://www.ncbi.nlm.nih.gov/taxonomy" target="_blank" rel="noopener">NCBI Taxonomy</a>.</p></div></section>
+</main>
+<footer><a class="brand" href="#"><span class="brand-mark">✳</span><span>Drzewo<span class="brand-light">Życia</span></span></a><span>Stworzone, by odkrywać wspólne pochodzenie życia.</span><span>Wersja edukacyjna · 2026</span></footer>
+<script src="app.js"></script>
+</body></html>
