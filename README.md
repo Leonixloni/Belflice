@@ -16,7 +16,7 @@ Gotowa strona statyczna do wrzucenia na GitHub i uruchomienia przez GitHub Pages
 5. Po chwili GitHub pokaże adres strony.
 
 ## Uruchomienie lokalne
-Ponieważ strona pobiera `data/tree.json`, uruchom ją przez lokalny serwer, a nie przez dwukrotne kliknięcie `index.html`. Przykładowo, jeśli masz Pythona:
+Możesz otworzyć `index.html` bezpośrednio w przeglądarce — strona ma wbudowaną kopię danych zapasowych i działa także bez lokalnego serwera. Jeśli edytujesz `data/tree.json`, uruchomienie przez serwer pokaże aktualną wersję pliku. Przykładowo, jeśli masz Pythona:
 `python -m http.server 8000`
 Następnie otwórz `http://localhost:8000`.
 
